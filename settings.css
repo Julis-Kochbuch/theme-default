@@ -1,3 +1,7 @@
+.settings__wrapper>button {
+    margin-top: var(--size-xsmall);
+}
+
 .settings__wrapper button:not([class]) {
     padding-inline: var(--size-xsmall);
 
@@ -17,13 +21,17 @@
 
 .settings__menu {
     justify-items: center;
-    
+
     border-color: var(--color-primary);
-    
+
     font-family: var(--font-tertiary);
 }
 
-.settings-admin .user-head {
+.settings__menu+h2 {
+    margin-top: 0;
+}
+
+.settings-admin-userlist .user-head {
     background-color: var(--color-background);
 }
 

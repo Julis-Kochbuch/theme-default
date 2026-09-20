@@ -116,7 +116,7 @@ h1 {
 }
 
 h2 {
-    margin-bottom: var(--size-xsmall);
+    margin-block: var(--size-small) var(--size-xsmall);
 
     font-size: var(--size-medium);
     text-decoration: none;
@@ -127,6 +127,10 @@ h2 {
     h2 {
         font-size: var(--size-large);
     }
+}
+
+h2:first-child {
+    margin-top: 0;
 }
 
 .add-button,
