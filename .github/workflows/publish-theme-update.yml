@@ -1,0 +1,13 @@
+name: Publish new theme version
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  publish:
+    uses: Juli-s-Kochbuch/github-actions/.github/workflows/publish-theme-update.yml@main
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
