@@ -6,7 +6,7 @@ on:
 
 jobs:
   publish:
-    uses: Juli-s-Kochbuch/github-actions/.github/workflows/publish-theme-update.yml@main
+    uses: Julis-Kochbuch/github-actions/.github/workflows/publish-theme-update.yml@main
     permissions:
       contents: write
       pages: write
