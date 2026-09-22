@@ -1,6 +1,6 @@
 {
     "slug": "default",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "update_url": "https://julis-kochbuch.github.io/theme-default/update.json",
     "files": [
         "theme.css",
