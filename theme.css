@@ -3,7 +3,7 @@
 @import url(https://fonts.bunny.net/css?family=baskervville:400,400i,600,600i);
 
 :root {
-    font-size: 16px;
+    font-size: 18px;
 
     --size-xsmall: 0.5rem;
     --size-small: 1rem;
@@ -60,7 +60,7 @@ body {
 }
 
 #root {
-    margin-top: calc(var(--size-large) + 2 * var(--size-small));
+    margin-top: calc(3 * var(--size-medium));
     padding: var(--size-small) var(--size-xsmall);
 
     overflow: visible;

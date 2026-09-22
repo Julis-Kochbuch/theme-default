@@ -188,14 +188,19 @@ h2:first-child {
     content: '-';
 }
 
+.new-recipe-button__wrapper {
+    right: 0;
+    margin-right: 1em;
+}
+
 .new-recipe-button {
-    font-size: var(--size-xlarge);
+    font-size: 3rem;
 }
 
 .recipe-servings .add-button::before,
 .recipe-servings .subtract-button::before,
 .new-recipe-button::before {
-    top: -12.5%;
+    top: -15%;
 }
 
 .back-button:not(.has-children),
