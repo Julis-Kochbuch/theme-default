@@ -57,6 +57,7 @@ body {
     background-color: var(--color-background);
     color: var(--color-primary);
     text-shadow: 0px 0px 1em rgb(from var(--color-background) r g b / .6);
+    overflow-wrap: break-word;
 }
 
 #root {
